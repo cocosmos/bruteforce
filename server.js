@@ -46,6 +46,9 @@ function random_method() {
       guess_crypted = calculateHash(guess);
     }
     display();
+    if (guess_crypted === password) {
+      break;
+    }
   }
 }
 
@@ -81,10 +84,9 @@ function display() {
     console.log(
       `The encrypted password: "${guess_crypted}" was decrypted to: "${guess}" with the "${method}" method and it took: ${time} ms to perform. \n`
     );
-    //break; /*For the While loop*/
   } else {
-    // console.log("Password crypted: " + guess_crypted);
-    // console.log("Password decrypted: " + guess + "\n");
+    //console.log("Password crypted: " + guess_crypted);
+    //console.log("Password decrypted: " + guess + "\n");
   }
 }
 
