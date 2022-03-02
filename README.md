@@ -2,9 +2,9 @@
 
 ## Information :
 
-Mipam Guillot
-Rendu le 09.03.2022
-NodeJS
+- Mipam Guillot
+- Rendu le 09.03.2022
+- NodeJS
 
 ### A savoir
 
