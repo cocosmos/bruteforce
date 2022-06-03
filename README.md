@@ -13,9 +13,5 @@ J'ai fait deux méthodes pour brute forcer le mot de passe "cnFrbg==" en "poil",
 ### Commande à lancer :
 
 ```bash
-npm i
-```
-
-```bash
-node server.js
+node app.js
 ```

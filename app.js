@@ -3,10 +3,6 @@
  * @name TP_BruteForce
  */
 
-const express = require("express");
-const app = express();
-const port = 8080;
-
 /*****Variables*****/
 const password = "cnFrbg==";
 const alphabet = "abcdefghijklmnopqrstuvwxyz ";
@@ -86,5 +82,3 @@ function display() {
 /*****Call the bruteforces function *****/
 forin_method();
 random_method();
-
-app.listen(port);
